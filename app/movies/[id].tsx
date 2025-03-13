@@ -10,8 +10,8 @@ import { useLocalSearchParams, useRouter } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import { icons } from "@/constants/icons";
-import useFetch from "@/services/usefetch";
 import { fetchMovieDetails } from "@/services/api";
+import useFetch from "@/services/useFetch";
 
 interface MovieInfoProps {
 	label: string;

@@ -1,4 +1,4 @@
-import { View, TextInput, Image, View } from "react-native";
+import { TextInput, Image, View } from "react-native";
 
 import { icons } from "@/constants/icons";
 
